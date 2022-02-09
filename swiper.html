@@ -1,0 +1,87 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">  
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">    
+<script src="https://unpkg.com/swiper/swiper-bundle.js"> </script>  
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js.map"> </script>
+
+    <style>
+        .swiper-container {
+            width: 600px;
+            height: 600px;
+        }
+        .swiper-slide{
+            heigth:40px;
+            line-height:40px;
+        }
+    </style>
+
+</head>
+<body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">孑影侧枕床木，寒思冻彻身骨。</div>
+        <div class="swiper-slide">拥衾难寐空屋，起衣温酒一壶。</div>
+        <div class="swiper-slide">北国夜无雪，念念藏纸雀。</div>
+        <div class="swiper-slide">枯守孤盏灯，清坐又一更。</div>
+        <div class="swiper-slide">昨冬初逢可忆，今朝苦等难遇。</div>
+        <div class="swiper-slide">去日欢颜几许？来年再会可期？</div>
+        <div class="swiper-slide">北国夜无雪，隐隐惧相逢。</div>
+        <div class="swiper-slide">宁负痴心某，独熬愚情种。</div>
+        <div class="swiper-slide">夕阳几缕染双眸，旧月一轮诉肠衷。</div>
+        <div class="swiper-slide">声色如彼化于风，形影似我遁无声。</div>
+        <div class="swiper-slide">北国夜无雪，隐隐惧相逢。</div>
+        <div class="swiper-slide">宁负痴心某，独熬愚情种。</div>
+        <div class="swiper-slide">夕阳几缕染双眸，旧月一轮诉肠衷。</div>
+        <div class="swiper-slide">声色如彼化于风，形影似我遁无声。</div>
+        <div class="swiper-slide">北国夜无雪，疏疏门前路。</div>
+        <div class="swiper-slide">子犹守岁烛，冷暖梦何苦。</div>
+    </div>
+
+    <!-- 如果需要分页器 -->
+    <!--<div class="swiper-pagination"></div>-->
+
+    <!-- 如果需要导航按钮 -->
+    <!--<div class="swiper-button-prev"></div>-->
+    <!--<div class="swiper-button-next"></div>-->
+
+    <!-- 如果需要滚动条 -->
+    <!--<div class="swiper-scrollbar"></div>-->
+</div>
+
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'vertical', // 垂直切换选项
+        slidesPerView: 10, //同时显示数量 默认1
+        loop: true, // 循环模式选项
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // 如果需要滚动条
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+
+        autoplay: {
+            delay: 1000,//1秒切换一次
+        },
+    })
+</script>
+</body>
+</html>
